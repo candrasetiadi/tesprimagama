@@ -12,6 +12,5 @@
 */
 
 Route::get('/', function () {
-	return realpath(base_path('resources/views'));
     return view('welcome');
 });
